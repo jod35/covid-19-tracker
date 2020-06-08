@@ -9,7 +9,13 @@
 <body>
 	<header class="main">
 		<nav>
-			<h1 class="text-center">Covid 19 Tracker</h1>
+
+			<h1 class="text-center"><img src="https://img.icons8.com/doodle/48/000000/coronavirus.png"/>Covid 19 Tracker</h1>
+
+			<ul class="nav_bar">
+				<li><a href="/search">Search</a></li>
+				<li><a href="/records">Previous Searches</a></li>
+			</ul>
 		</nav>
 
 		<div class="form">
@@ -29,13 +35,13 @@
 
 			<div class="box">
 				<h3 class="box-text">Recovered</h3>
-				<p class="box-number">{{data.recovered}}</p>
+				<p class="box-number green">{{data.recovered}}</p>
 			</div>
 
 
 			<div class="box">
 				<h3 class="box-text">Deaths</h3>
-				<p class="box-number">{{data.deaths}}</p>
+				<p class="box-number red">{{data.deaths}}</p>
 			</div>
 		</div>
 

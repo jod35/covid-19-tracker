@@ -88,7 +88,11 @@ def search_cases_by_country():
 
 @app.route('/records')
 def return_records():
-	return render_template('records.html')
+	records=Record.query.order_by(Record.id.desc()).all()
+	context={
+	'records':records
+	}
+	return render_template('records.html',**context)
 
 
 

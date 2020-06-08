@@ -11,6 +11,24 @@ nav{
 
 	box-shadow: 5px 5px 5px 3px black;
 }
+ul{
+	list-style: none;
+}
+li{
+	display: inline;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+	color: dodgerblue;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav_bar{
+	padding: 20px;
+}
 .text-center{
 	text-align: center;
 
@@ -63,6 +81,12 @@ nav{
 .box-number{
 	font-size: 3rem;
 }
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
 
 .dates{
 	margin-top: 50px;
@@ -72,3 +96,17 @@ nav{
 	font-size: 1.5em;
 }
 
+table{
+	width: 100%;
+	padding: 20px;
+	margin-top: 50px;
+}
+tbody tr:hover{
+background: dodgerblue;
+color: white;
+}
+
+thead{
+	background: dodgerblue;
+	color: white;
+}
