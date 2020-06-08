@@ -2,8 +2,9 @@
  This is an app that tracks information on Covid 19 basing on country.
 
 ## Built With
-- Flask
-- Requests
+- Flask (the web framework)
+- Requests (the library for making API calls)
+- MySQL (for data persistence)
 - HTML
 - CSS
 
