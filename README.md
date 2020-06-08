@@ -14,3 +14,6 @@ If you wan to make your own, [The Api is here.](https://covid-19-coronavirus-sta
 
 ## Run With
 ` python 3 app.py `
+
+![Demo](demo1.png)
+![Demo](deom.png)
