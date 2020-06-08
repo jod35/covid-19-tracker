@@ -11,9 +11,14 @@
 ## API 
 
 If you wan to make your own, [The Api is here.](https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total)
+## Install Project ependencies With
+` pip3 install -r requirements.txt`
 
 ## Run With
 ` python 3 app.py `
 
 ![Demo](demo1.png)
+
+
+
 ![Demo](deom.png)
