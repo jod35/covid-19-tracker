@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Covid 19 Tracker</title>
+	<link rel="stylesheet" href="../static/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="main">
+		<nav>
+			<h1 class="text-center">Covid 19 Tracker</h1>
+		</nav>
+
+		<div class="form">
+			<form action="/search" method="post">
+				<input type="text" name="country" id="country" class="myfield" placeholder="Search a country">
+
+				<input type="submit" value="Search" class="mybtn" required>
+			</form>
+		</div>
+		{% if data%}
+		<h1 class="text-center" style="color: dodgerblue;">Results for {{data['location']}}</h1>
+		<div class=" results">
+			<div class="box">
+				<h3 class="box-text">Confirmed Cases</h3>
+				<p class="box-number">{{data.confirmed}}</p>
+			</div>
+
+			<div class="box">
+				<h3 class="box-text">Recovered</h3>
+				<p class="box-number">{{data.recovered}}</p>
+			</div>
+
+
+			<div class="box">
+				<h3 class="box-text">Deaths</h3>
+				<p class="box-number">{{data.deaths}}</p>
+			</div>
+		</div>
+
+		<div class="dates text-center">
+			<p>Last Checked on {{last_checked}}</p>
+			<p>Last Reported on {{last_reported}}</p>
+		</div>
+		{% endif %}
+	</header>
+</body>
+</html>
