@@ -10,7 +10,12 @@
 
 ## API 
 
-If you wan to make your own, [The Api is here.](https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total)
+If you want to make your own, [The Api is here.](https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total)
+
+
+## The live demo
+[Production site](https://simple-deployment-demo.herokuapp.com/)
+
 ## Install Project ependencies With
 ` pip3 install -r requirements.txt`
 
